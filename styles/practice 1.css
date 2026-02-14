@@ -1,0 +1,98 @@
+           p{
+                margin-left: -45px;
+            }
+            .body-part{
+                background-color: rgb(104, 101, 101);
+                text-align: center;
+            }
+
+            .page-profile{
+                display: inline-block;
+                width: 305px;
+                height: 350px;
+                background-color: blue ;
+            }
+            
+
+            .thumbnails{
+                width: 259px;
+                height: 350px;
+                padding-bottom: -15px;
+                border-radius: 30px 0 30px 0;
+
+            }
+            .add-key{
+                color:yellow ;
+
+            }
+
+            .ceremony{
+                color: white;
+            }
+            .substitution-key{
+                color: rgb(225, 228, 21);
+            }.first-button{
+           background-color: brown;
+           color: beige;
+           border:none;
+           height:36px;
+            width:106PX;
+            font-weight:bold;
+            font-size:15px;
+            cursor:pointer;
+            border-radius:18px;
+            margin-left:8PX;
+            transition:background-color cubic-bezier(0.19, 1, 0.22, 1),color cubic-bezier(0.19, 1, 0.22, 1);
+            
+         }
+        .first-button:hover{
+            background-color: black;
+            color:yellow;
+
+        }
+        .first-button:active{
+            opacity:0.7 ;
+        }
+        .second-button{
+           background-color:yellow;
+           color: black;
+           border:none;
+           height:36px;
+            width:106PX;
+            font-weight:bold;
+            font-size:15px;
+            cursor:pointer;
+            border-radius:18px;
+            margin-left:80PX;
+            transition:opacity 0.15s;
+            
+        }
+
+        .second-button:hover{
+             background-color: white;
+            color:red;
+
+        }
+
+        .Third-button{
+            background-color:brown;
+           color:beige;
+           border:none;
+           height:36px;
+            width:106PX;
+            font-weight:bold;
+            font-size:15px;
+            cursor:pointer;
+            border-radius:18px;
+            margin-left:150PX;
+            transition:opacity 0.15s;
+        }
+
+        .Third-button:hover{
+            background-color: black;
+            color:yellow;
+        }
+
+        .Third-button:active{
+            opacity:0.7 ; 
+        }
